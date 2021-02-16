@@ -11,17 +11,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="My Library"
+        android:fontFamily="@font/lemon"
+        android:text="@string/my_library"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <Button
         android:id="@+id/btnAllBooks"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="See All Books"
+        android:text="@string/see_all_books"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,10 +31,10 @@
 
     <Button
         android:id="@+id/btnCurrentlyReading"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Currently Reading Books"
+        android:text="@string/currently_reading_books"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/btnAllBooks"
         app:layout_constraintStart_toStartOf="@+id/btnAllBooks"
@@ -40,10 +42,10 @@
 
     <Button
         android:id="@+id/btnAlreadyRead"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Already Read Books"
+        android:text="@string/already_read_books"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/btnCurrentlyReading"
         app:layout_constraintStart_toStartOf="@+id/btnCurrentlyReading"
@@ -51,10 +53,10 @@
 
     <Button
         android:id="@+id/btnWantToRead"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Your Wishlist"
+        android:text="@string/your_wishlist"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/btnAlreadyRead"
         app:layout_constraintStart_toStartOf="@+id/btnAlreadyRead"
@@ -62,10 +64,10 @@
 
     <Button
         android:id="@+id/btnFavorite"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="See Your Favorites"
+        android:text="@string/see_your_favorites"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/btnWantToRead"
         app:layout_constraintStart_toStartOf="@+id/btnWantToRead"
@@ -73,10 +75,10 @@
 
     <Button
         android:id="@+id/btnAbout"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="About"
+        android:text="@string/about"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/btnFavorite"
         app:layout_constraintStart_toStartOf="@+id/btnFavorite"
@@ -84,20 +86,20 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@mipmap/logo"/>
 
     <TextView
         android:id="@+id/txtLicence"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Developed by Coderx"
+        android:text="@string/developed_by_coderx"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
